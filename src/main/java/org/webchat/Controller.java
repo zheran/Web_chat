@@ -27,6 +27,7 @@ public class Controller {
         for (; number < lines.size(); number++){
             result.add(lines.get(number));
         }
+        System.out.println(result);
         return result;
     }
 }
